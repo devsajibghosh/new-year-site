@@ -1,0 +1,516 @@
+/* /* Merriweather font family */ 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* Inter font family import from google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Header Section */
+header{
+  margin-top: 40px;
+}
+
+.container{
+  width: 1320px;
+  max-width: 82%;
+  margin: 0 auto;  
+}
+
+header .container{
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/banner-image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 16px;
+}
+.banner {
+  max-width: 518px;
+  margin: 0 auto;
+  padding: 150px 0;
+}
+/* banner section */
+.banner p{
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  font-family: Merriweather;
+}
+.banner h1{
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 58px;
+  font-weight: 900;
+  margin-top: 16px;
+  line-height: 95px;
+}
+
+/*Catagory section Design  */
+
+section{
+  margin-top: 120px;
+}
+.catagory_section .catagory_items h2{
+  color: red;
+  font-family: Inter;
+  font-size: 72px;
+  font-weight: 700;
+  text-align: center;
+}
+.catagory_section .catagory_items p{
+  color: red;
+  font-family: Inter;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+.catagory_section .catagory_items h3{
+  color: #020202;
+  text-align: center;
+  margin-bottom: 45px;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.catagory_section .catagory_img{
+  max-width: 655px;
+  margin: 0 auto;
+}
+.catagory_section .catagory_img img{
+  width: 100%;
+}
+
+/* Welcome Section Design */
+
+.welcome_section .container{
+  background: linear-gradient(45deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/vector.png');
+  border-radius: 16px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.welcome_main_c{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 68px 0;
+}
+.welcome_section .wel_headign h2 {
+  color: #FFF;
+  font-family: Merriweather;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+.welcome_section .wel_headign p {
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 24px;
+}
+
+.welcome_section .wel_headign button{
+	color: #FFF;
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 48px;
+	margin-left: 32px;
+	background: #F00;
+	border: none;
+	cursor: pointer;
+	padding: 14px 30px;
+	border-radius: 8px;
+  border: 2px solid #F00;
+  transition: .3s;
+}
+.welcome_section .wel_headign button:hover{
+  background: transparent;
+}
+.welcome_section .wel_headign{
+  width: 525px;
+  margin-left: 126px;
+}
+.welcome_section .wel_img img{
+  width: 100%;
+}
+.welcome_section .wel_img{
+  max-width: 320px;
+  margin-right: 138px;
+}
+
+/* Joinn Now section */
+
+.join_now_section .container{
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  padding-top: 100px;
+  padding-bottom: 110px;
+  border-radius: 16px;
+}
+.join_now_section .join_now_items p{
+  color: #070211;
+  font-family: Inter;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.join_now_items{
+  text-align: center;
+}
+.join_now_items p span{
+  color: #F00;
+}
+.join_now_section .join_now_items button{
+  color: #FFF;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 700;
+  padding: 16px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: red;
+  margin-top: 48px;
+  cursor: pointer;
+}
+
+/* COMING SOON SECTION */
+
+.coming_soon_section .coming_soon_main_colum{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.coming_soon_section .c_s_c_one{
+  max-width: 322px;
+}
+.coming_soon_section .c_s_c_one h3{
+  color: red;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 500;
+}
+.coming_soon_section .c_s_c_one h2{
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+.coming_soon_section .c_s_c_one p{
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 32px;
+  
+}
+.coming_soon_section .main_colum_2 img{
+ border: 15px solid red;
+ border-radius: 50%;
+ padding: 40px;
+}
+.coming_soon_section .colum_three{
+  max-width: 226px;
+  margin-top: 132px;
+}
+.coming_soon_section .colum_three h1{
+  color: red;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+}
+.coming_soon_section .colum_three p{
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  margin-bottom: 32px;
+  margin-left: 5px;
+  line-height: 32px;
+  margin-top: 16px;
+}
+
+/* HOLIDAY SECTION */
+
+.holiday_section .holiday_heading_items{
+  max-width: 875px;
+  text-align: center;
+   margin: 0 auto;
+}
+.holiday_section .holiday_heading_items h3{
+  color: #070211;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+}
+.holiday_section .holiday_heading_items h2{
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 60px;
+  font-weight: 900;
+  margin-top: 16px;
+  margin-bottom: 28px;
+}
+
+.holiday_section .holiday_heading_items span{
+  color: red;
+}
+
+.holiday_section .holiday_heading_items p{
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 35px;
+}
+.holiday_section .holiday_main_c{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-top: -145px;
+}
+.holiday_section .holiday_main_c img{
+  width: 100%;
+  display: block;
+}
+
+.holiday_section .holiday_c_1{
+  position: relative;
+  top: 158px;
+}
+
+.holiday_section .holiday_c_2{
+  width: 26%;
+  position: relative;
+}
+.holiday_section .holiday_c_2::before {
+  position: absolute;
+  content: '';
+  background: url('../images/group50.png') no-repeat;
+  width: 250px;
+  height: 251px;
+  top: 50%;
+  right: 125px;
+  transform: translateY(-50%);
+}
+.holiday_section .holiday_c_3{
+  background: url('../images/rectangle2.png');
+  background-repeat: no-repeat;
+  height: 180px;
+  border-radius: 16px 0px 16px 16px;
+}
+
+/* Portfolio Section */
+
+.portfolio_section h3{
+  color: #F00;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+}
+.portfolio_section h2{
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+.portfolio_section p{
+  color: #070211;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.portfolio_section .portfolio_title{
+  max-width: 734px;
+}
+.portfolio_section .portfolio_main_img img{
+  max-width: 100%;
+  display: block;
+  transition: .4s;
+}
+.portfolio_section .portfolio_main_img{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 24px;
+  row-gap: 24px;
+  margin-top: 24px;
+}
+.portfolio_section .portfolio_main_img img:hover{
+  transform: scale(1.2);
+}
+
+/* Suscribe now section */
+
+.suscribe_section .container{
+  background: rgba(255, 0, 0, 0.05);
+  border-radius: 16px;
+}
+.suscribe_section .suscribe_item_section{
+  max-width: 734px;
+  padding: 80px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+.subscribe_section h2 {
+  color: #070211;
+  font-family: 'Merriweather', sans-serif; /* Add a fallback font family */
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 40px;
+}
+.suscribe_section p{
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 22px;
+  margin-bottom: 48px;
+}
+.suscribe_section form{
+  max-width: 535px;
+  display: flex;
+  margin: 0 auto;
+}
+.suscribe_section form input{
+  flex-grow: 1;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 32px;
+  border: none;
+  outline: none;
+  border-radius: 50px 0px 0px 50px;
+}
+.suscribe_section form button{
+  padding: 22px 50px;
+  border-radius: 0px 50px 50px 0px;
+  background: #F00;
+  border: none;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.suscribe_section form input::placeholder{
+  color: rgba(7, 2, 17, 0.30);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Footer Section */
+
+footer{
+  background: #070211;
+  margin-top: 120px;
+}
+footer .address_items{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+footer .container{
+  padding: 120px 0px;
+}
+footer .footer_address p{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+}
+footer .footer_address{
+  max-width: 325px;
+}
+footer .footer_contact a{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+  text-decoration: none;
+  display: block;
+}
+footer hr{
+  height: 1px;
+  border: none;
+  background: rgba(255, 255, 255, 0.15);
+}
+footer .footer_contact{
+  position: relative;
+}
+footer .footer_contact::before{
+  position: absolute;
+  content: '';
+  background: url('../images/call.png');
+  width: 24px;
+  height: 25px;
+  top: 30%;
+  transform: translateY(-50%);
+  right: 300px;
+}
+footer .website{
+  position: relative;
+}
+footer .website::before {
+  position: absolute;
+  content: '';
+  background: url('../images/website.png');
+  width: 24px;
+  height: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 300px;
+}
+footer .social_icons a{
+  margin-right: 24px;
+}
+footer .social_icons a:last-child{
+  margin: 0;
+}
+footer .social_icons{
+  text-align: center;
+  margin: 48px 0px;
+}
+footer .unsuscribe{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+footer .unsuscribe a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+}
+footer .unsuscribe p{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+}
